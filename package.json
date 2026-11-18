@@ -1,0 +1,17 @@
+{
+  "name": "nonprofit-invoice-pdf-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node src/invoice_service.ts",
+    "test": "node --test src/invoice_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
